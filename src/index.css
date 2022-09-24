@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.line {
+    height: 5px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(83, 202, 245, 0.8) 0%, rgba(217, 217, 217, 0) 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.back{
+    background-image:url('./assets/happy-parents-laughing-together-with-daughter\ 2.png');
+    background-size:1300px;
+}
+.about{
+    top:100px;
+}
+.nav{
+    
+    background:rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+}
+
+.about-content{
+    background:url('./assets/giorgio-trovato-H8X-2bchJI8-unsplash\ \(2\).jpg');
+    background-size:cover;
+    height:auto;
+}
+.box{
+    background : white;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+}
+.back-2{
+    background:url('./assets/josh-rose-trYl7JYATH0-unsplash-scaled.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.img1{
+    background : url('./assets/sean-pollock-PhYq704ffdA-unsplash\ 1.png');
+    background-size: cover;
+}
+.img2{
+    background : url('./assets/img2.png');
+    background-size: cover;
+}
+.m-content{
+    background:white;
+    height:15%;
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top:10px;
+}
+#m-content2{
+    height : 40%;
+}
+#m-content3{
+    height : 68%;
+}
+.cooperate{
+    background: #F5F7F8;
+    height : 85vh;
+}
+.founder{
+    background : url('./assets/giorgio-trovato-H8X-2bchJI8-unsplash\ \(2\).jpg');
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.fo{
+    background: url('./assets/image\ 8\ \(1\).png');
+    background-size:cover;
+    border:1px solid black;
+    border-radius:50%;
+    margin:auto;
+    margin-bottom:14px;
+
+}
+.one{
+    background : url('./assets/image\ 3.png');
+    background-size:cover;
+}
+.two{
+    background : url('./assets/image\ 5.png');
+    background-size:cover;
+}
+.three{
+    background : url('./assets/image\ 9.png');
+    background-size:cover;
+}
+
+.foot{
+    height : 40vh;
+    background : #004A74;
+    /* align-items: center; */
+}
+.foo{
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    height : auto;
+    width:15%;
+    margin-left:10vw;
+}
+
+.links{
+    width:40%;
+    height:80%;
+    margin-right:2vw;
 }
