@@ -4,7 +4,7 @@ import des from '../assets/path.png'
 
 const footer = () => {
   return (
-    <div className="foot">
+    <div className="foot mt-8">
       <div className="foo">
         <div className="logo">
           <img src={final} alt="" />
